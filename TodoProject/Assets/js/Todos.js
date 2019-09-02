@@ -1,4 +1,4 @@
-// Check Off Specific To-Dos By Clicking (without toggleClass method)
+// Check Off Specific To-Dos By Clicking (without jQuery toggleClass method)
 /*$('li').click(function(){
 	//If li is gray
 	if($(this).css('color') === 'rgb(128, 128, 128)'){
@@ -44,16 +44,7 @@ $('input[type=text]').keypress(function(event){
 	}
 });
 
-//Input toggle on pencil icon
+// Input toggle on pencil icon
 $('.fa-pencil-alt').click(function(){
 	$('input[type=text]').fadeToggle();
 });
-
-// Double Click to check off
-
-
-
-// Click to edit li textContent
-
-
-
